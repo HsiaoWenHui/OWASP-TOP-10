@@ -9,4 +9,4 @@ create table [dbo].[member](
 
 );
 
-alter table dbo.people add p_money int null;
+alter table dbo.member add p_money int null;

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="OWASP.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="A1.aspx.cs" Inherits="OWASP.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -11,9 +11,9 @@
         <div>
         </div>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:OWASPConnectionString %>" SelectCommand="SELECT * FROM [people]"></asp:SqlDataSource>
-        帳號：<asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+        帳號：<asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
         <br />
-        密碼：<asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+        密碼：<asp:TextBox ID="TextBox2" runat="server" ></asp:TextBox>
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
