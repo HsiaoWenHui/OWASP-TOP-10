@@ -10,7 +10,9 @@
 	<div>
 		<h1>OWASP Top 10 資安風險</h1>
 		<h2>A2:2017-Broken Authentication　無效的身分驗證</h2>
+		
 		<p>
+			
 			發生 Broken Authentication 風險通常是脆弱的帳戶認證，或是採取了不安全的管理機制。例如：登入未加密、Session 無控管 Cookie 為保護等。這容易造成帳號 / 身分盜用，或身分認證機制無效化，讓有心人士可肆意在伺服器做任何新增修改刪除查詢，進而接管主機等。
 
 				建議的控制措施為：
@@ -57,6 +59,10 @@
 
 		</div>
 		<div>
+			<hr />
+			<asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
+		</div>
+		<%--<div>
 			<h3>設定完善的 Timeout 機制 : 密碼錯誤次數鎖定</h3>
 			<p>以下簡單實作密碼輸入錯誤3次鎖定1分鐘 正確資料:帳:123 密:123</p>
 			<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:OWASPConnectionString %>" SelectCommand="SELECT * FROM [people]"></asp:SqlDataSource>
@@ -65,10 +71,10 @@
 			密碼：<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 			<br />
 			<br />
-			<%--<asp:Button ID="Button1" runat="server" OnClick="Button1_Click " Text="Button" />--%>
+			<%--<asp:Button ID="Button1" runat="server" OnClick="Button1_Click " Text="Button" />
 			<br />
 			您的餘額：<asp:Label ID="Label1" runat="server" Text="0"></asp:Label>
-		</div>
+		</div>--%>
 	</form>
 </body>
 </html>

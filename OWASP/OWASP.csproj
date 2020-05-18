@@ -69,6 +69,14 @@
   <ItemGroup>
     <Content Include="A2.aspx" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <Content Include="A3.aspx" />
+    <Content Include="A5-1.aspx" />
+    <Content Include="A5-2.aspx" />
+    <Content Include="A5.aspx" />
+    <Content Include="A7-sol.aspx" />
+    <Content Include="A7.aspx" />
+    <Content Include="A4.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
     <Content Include="Scripts\jquery-3.5.1.slim.js" />
@@ -83,6 +91,62 @@
     </Compile>
     <Compile Include="A2.aspx.designer.cs">
       <DependentUpon>A2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A3.aspx.cs">
+      <DependentUpon>A3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A3.aspx.designer.cs">
+      <DependentUpon>A3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A5-1.aspx.cs">
+      <DependentUpon>A5-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A5-1.aspx.designer.cs">
+      <DependentUpon>A5-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A5-2.aspx.cs">
+      <DependentUpon>A5-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A5-2.aspx.designer.cs">
+      <DependentUpon>A5-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A5.aspx.cs">
+      <DependentUpon>A5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A5.aspx.designer.cs">
+      <DependentUpon>A5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A7-sol.aspx.cs">
+      <DependentUpon>A7-sol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A7-sol.aspx.designer.cs">
+      <DependentUpon>A7-sol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A7.aspx.cs">
+      <DependentUpon>A7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A7.aspx.designer.cs">
+      <DependentUpon>A7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A4.aspx.cs">
+      <DependentUpon>A4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A4.aspx.designer.cs">
+      <DependentUpon>A4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="A1.aspx.cs">

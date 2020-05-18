@@ -11,7 +11,7 @@ namespace OWASP
 {
 
 
-	public partial class A2
+	public partial class A3_sol
 	{
 
 		/// <summary>
@@ -24,57 +24,30 @@ namespace OWASP
 		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// txtPwd 控制項。
+		/// TextBox1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox txtPwd;
+		protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
 		/// <summary>
-		/// TxtCfm 控制項。
+		/// Button1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TxtCfm;
+		protected global::System.Web.UI.WebControls.Button Button1;
 
 		/// <summary>
-		/// Button2 控制項。
+		/// Label1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Button2;
-
-		/// <summary>
-		/// CompareValidator1 控制項。
-		/// </summary>
-		/// <remarks>
-		/// 自動產生的欄位。
-		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
-
-		/// <summary>
-		/// txtPW 控制項。
-		/// </summary>
-		/// <remarks>
-		/// 自動產生的欄位。
-		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox txtPW;
-
-		/// <summary>
-		/// btnButton2 控制項。
-		/// </summary>
-		/// <remarks>
-		/// 自動產生的欄位。
-		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button btnButton2;
+		protected global::System.Web.UI.WebControls.Label Label1;
 	}
 }
