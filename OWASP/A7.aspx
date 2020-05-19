@@ -15,7 +15,7 @@
 			跨網站指令碼攻擊通常指利用網頁開發時留下的漏洞，攻擊者將惡意程式碼注入到網頁上，並將網頁使用釣魚郵件或用社群網站等媒介散佈，
 				使得其他點擊連結的使用者在觀看網頁時就會受到影響這些惡意程式碼的攻擊，通常用於 HTML/JavaScript 或者其他使用者端的腳本語言。
 				Reflected XSS 是其中一種，當使用者點擊一個經過設計的連結，就有可能被執行特定的 Script。
-			XSS的重點描述及控制手法為：
+			<h4>建議的控制措施為：</h4>
 		</p>
 		<ul>
 			
@@ -52,6 +52,7 @@
         </div>
 		<div>
 			<hr />
+			<asp:HyperLink NavigateUrl="~/A8.aspx" runat="server" Text="next" /><br />
 			目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
 		

@@ -15,7 +15,7 @@
 			<h2>A5:2017-Broken Access Control 無效的存取控管</h2>
 			<p>
 				此項合併了在 2013 容易被混淆的 A4 與 A7，將存取控管擴大定義。攻擊者可透過網址或 HTML 頁面，繞過存取控制；或將自己的權限提升自管理者，進而攻破公司系統等。
-               建議的控制措施為：
+               <h4>建議的控制措施為：</h4>
 			</p>
 			<ul>
 				<li>避免將物件直接暴露給使用者。</li>
@@ -48,6 +48,7 @@
 		<asp:HyperLink NavigateUrl="https://ithelp.ithome.com.tw/articles/10209447" runat="server" Text="Access Control Flaws - Insecure Direct Object References 1" />
 		<asp:HyperLink NavigateUrl="https://mmdays.com/2013/12/11/owasp_top_10/" runat="server" Text="Access Control Flaws - Insecure Direct Object References 1" />
 		<br />
+		<asp:HyperLink NavigateUrl="~/A6.aspx" runat="server" Text="next" /><br />
 		目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 	</form>
 	

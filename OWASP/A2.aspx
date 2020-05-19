@@ -15,7 +15,7 @@
 			
 			發生 Broken Authentication 風險通常是脆弱的帳戶認證，或是採取了不安全的管理機制。例如：登入未加密、Session 無控管 Cookie 為保護等。這容易造成帳號 / 身分盜用，或身分認證機制無效化，讓有心人士可肆意在伺服器做任何新增修改刪除查詢，進而接管主機等。
 
-				建議的控制措施為：
+			<h4>建議的控制措施為：</h4>
 		</p>
 		<ul>
 			<li>使用完善的 Cookie Session 保護機制。</li>
@@ -60,6 +60,7 @@
 		</div>
 		<div>
 			<hr />
+			<asp:HyperLink NavigateUrl="~/A3.aspx" runat="server" Text="next" /><br />
 			<asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
 		<%--<div>

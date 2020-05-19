@@ -14,7 +14,7 @@
 			這除了是 2017 版的第一名，同時也是 2013 版的第一名。廣為人知的是 SQL Injection，通常會發生在惡意程式輸入時；主要是因為沒有經過妥善的檢查、排除符號等，所造成的弱點風險。
 
 可能造成洩漏機敏資料（A3），讓竊取者可讀取資料庫，或進而發生作業系統漏洞，執行系統指令，甚至讓主機被竊取者接管等等。
-				建議的控制措施為：
+				<h4>建議的控制措施為：</h4>
 		</p>
 		<ul>
 			<li>使用 Prepared Statements、Stored Procedures。</li>
@@ -45,6 +45,7 @@
         <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
         <div>
 			<hr />
+			<asp:HyperLink NavigateUrl="~/A2.aspx" runat="server" Text="next" /><br />
 			<asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
     </form>

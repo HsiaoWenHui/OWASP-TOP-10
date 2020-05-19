@@ -20,11 +20,11 @@
                 <li><asp:HyperLink NavigateUrl="~/A3.aspx" runat="server" Text="A3" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A4.aspx" runat="server" Text="A4" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A5.aspx" runat="server" Text="A5" /></li>
-                <li>A6</li>
+                <li><asp:HyperLink NavigateUrl="~/A6.aspx" runat="server" Text="A6" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A7.aspx" runat="server" Text="A7" /></li>
-                <li>A8</li>
-                <li>A9</li>
-                <li>A10</li>
+                <li><asp:HyperLink NavigateUrl="~/A8.aspx" runat="server" Text="A8" /></li>
+                <li><asp:HyperLink NavigateUrl="~/A9.aspx" runat="server" Text="A9" /></li>
+                <li><asp:HyperLink NavigateUrl="~/A10.aspx" runat="server" Text="A10" /></li>
 			</ul>
             資料來源: <asp:HyperLink NavigateUrl="https://secbuzzer.co/post/116" runat="server" Text="資安人須知的 OWASP TOP 10 資安風險來源" />
         </div>

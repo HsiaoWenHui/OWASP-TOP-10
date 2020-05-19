@@ -13,7 +13,7 @@
             <h1>OWASP Top 10 資安風險</h1>
 		    <h2>A3:2017-Sensitive Data Exposure　機敏資料外洩</h2>
 			<p>當資料未加密、或使用脆弱的金鑰時，容易使得密碼被攻破，造成機敏資料外洩的風險，將重要資料暴露在危險之中。常見於網路應用程式對於資料的保護不足，若駭客取得這些金融資訊、個人資料，即可偽造 / 竊取身分，或進行其他的犯罪行為。
-                建議的控制措施為：
+               <h4>建議的控制措施為：</h4>
                 </p>
             <ul>
 				<li>備份檔、開發版本不應出現於正式機上。</li>
@@ -25,6 +25,7 @@
         </div>
         <div>
 			<hr />
+            <asp:HyperLink NavigateUrl="~/A4.aspx" runat="server" Text="next" /><br />
 			目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
     </form>
