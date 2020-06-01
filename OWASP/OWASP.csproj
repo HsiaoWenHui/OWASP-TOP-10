@@ -79,6 +79,7 @@
     <Content Include="A7.aspx" />
     <Content Include="A4.aspx" />
     <Content Include="A8.aspx" />
+    <Content Include="A9-1aspx.aspx" />
     <Content Include="A9.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Scripts\jquery-3.5.1.js" />
@@ -166,6 +167,13 @@
     <Compile Include="A8.aspx.designer.cs">
       <DependentUpon>A8.aspx</DependentUpon>
     </Compile>
+    <Compile Include="A9-1aspx.aspx.cs">
+      <DependentUpon>A9-1aspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A9-1aspx.aspx.designer.cs">
+      <DependentUpon>A9-1aspx.aspx</DependentUpon>
+    </Compile>
     <Compile Include="A9.aspx.cs">
       <DependentUpon>A9.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,6 +207,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyEncrypt\MyEncrypt.csproj">
+      <Project>{e10827c4-ffb0-4c69-8ec2-26c1b3ec934d}</Project>
+      <Name>MyEncrypt</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

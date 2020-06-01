@@ -175,3 +175,5 @@ G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\obj\Debug\OWASP.csproj.Cor
 G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\obj\Debug\OWASP.csproj.CopyComplete
 G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\obj\Debug\OWASP.dll
 G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\obj\Debug\OWASP.pdb
+G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\bin\MyEncrypt.dll
+G:\我的雲端硬碟\source\repos\OWASP-TOP-10\OWASP\bin\MyEncrypt.pdb

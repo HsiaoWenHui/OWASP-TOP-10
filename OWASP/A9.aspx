@@ -25,7 +25,16 @@
 			</ul>
         </div>
         <div>
+			<h2>第三方元件 範例</h2>
+			<h5>利用第三方套件來對密碼進行加密，該套件同時會偷偷在console中秀出原文密碼</h5>
+			<p>帳號輸入:123</p>
+            帳號：<asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+            加密後為：<asp:Label ID="Label1" runat="server" Text="0"></asp:Label>
+        </div>
+        <div>
 			<hr />
+            <asp:HyperLink NavigateUrl="~/A10.aspx" runat="server" Text="next" /><br />
 			目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
     </form>

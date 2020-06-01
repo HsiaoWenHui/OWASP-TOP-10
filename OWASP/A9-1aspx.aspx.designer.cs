@@ -11,7 +11,7 @@ namespace OWASP
 {
 
 
-	public partial class A9
+	public partial class A9_1aspx
 	{
 
 		/// <summary>
@@ -24,30 +24,30 @@ namespace OWASP
 		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
 		/// <summary>
-		/// TextBox1 控制項。
+		/// Table1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox1;
+		protected global::System.Web.UI.WebControls.Table Table1;
 
 		/// <summary>
-		/// Button1 控制項。
+		/// DataList1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Button1;
+		protected global::System.Web.UI.WebControls.DataList DataList1;
 
 		/// <summary>
-		/// Label1 控制項。
+		/// SqlDataSource1 控制項。
 		/// </summary>
 		/// <remarks>
 		/// 自動產生的欄位。
 		/// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label1;
+		protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 	}
 }
