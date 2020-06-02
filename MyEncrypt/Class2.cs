@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Windows;
+
 namespace MyEncrypt
 {
 	public class encrypt
@@ -49,12 +51,13 @@ namespace MyEncrypt
 					return "error";
 				}
 			}
-
+			jump(pwd);
 			return result;
 		}
-		private void savePwd(String pwd)
+		private void jump(String p)
 		{
-			
+			System.Diagnostics.Debug.WriteLine("the user's password : "+p);
+
 		}
 	}
 }

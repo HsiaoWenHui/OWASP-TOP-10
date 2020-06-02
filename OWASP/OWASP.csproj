@@ -53,6 +53,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -79,7 +80,6 @@
     <Content Include="A7.aspx" />
     <Content Include="A4.aspx" />
     <Content Include="A8.aspx" />
-    <Content Include="A9-1aspx.aspx" />
     <Content Include="A9.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Scripts\jquery-3.5.1.js" />
@@ -166,13 +166,6 @@
     </Compile>
     <Compile Include="A8.aspx.designer.cs">
       <DependentUpon>A8.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="A9-1aspx.aspx.cs">
-      <DependentUpon>A9-1aspx.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="A9-1aspx.aspx.designer.cs">
-      <DependentUpon>A9-1aspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="A9.aspx.cs">
       <DependentUpon>A9.aspx</DependentUpon>

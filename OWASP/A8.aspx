@@ -20,8 +20,15 @@
                 <li>只允許原始資料型態進行反序列化。</li>
                 <li>將序列化的物件加上數位簽章或進行加密，防止新增惡意物件或資料竄改。</li> 
                 <li>記錄反序列化所發生的例外情況與失敗訊息。</li> 
-                <li>監控反序列化，當用戶持續進行反序列化時，應啟動警告機制。</li>  
+                <li>監控反序列化，當用戶持續進行反序列化時，應啟動警告機制。</li>
 			</ul>
+        	<p>
+				&nbsp;</p>
+			<p>
+				<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+				<asp:Button ID="Button2" runat="server" Text="Button" />
+				<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+			</p>
         </div>
         <div>
 			<hr />
