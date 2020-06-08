@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="A8.aspx.cs" Inherits="OWASP.A8" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="A8.aspx.cs" Inherits="OWASP.A8" validateRequest="false"%>
 
 <!DOCTYPE html>
 
@@ -22,15 +22,25 @@
                 <li>記錄反序列化所發生的例外情況與失敗訊息。</li> 
                 <li>監控反序列化，當用戶持續進行反序列化時，應啟動警告機制。</li>
 			</ul>
-        	<p>
-				&nbsp;</p>
-			<p>
-				<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-				<asp:Button ID="Button2" runat="server" Text="Button" />
-				<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-			</p>
+        	
+			
         </div>
+		<div>
+			<h4>範例</h4>
+			<p>以下範例是將xml格式文字傳送給後端，進行序列化跟反序列，反序列之後可以看到只剩下文字</p>
+			xml範例(要把空白刪掉): <br />	
+			正常 : < summary > 反序列化成功< / summary >< param name="data">< /param> < returns>< /returns>
+			<br />
+			惡意攻擊 :< summary > < script>alert("入侵")< /script>  < / summary >< param name="data">< /param> < returns>< /returns>
+			<br /> 
+		</div>
         <div>
+			<br />
+			輸入上面範例xml:<asp:TextBox ID="TextBox1" runat="server" Width="1156px"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="開始" /><br />
+			<br />
+			序列化結果:<asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
+			反序列化結果:<asp:Label ID="Label2" runat="server" Text=""></asp:Label><br />
 			<hr />
             <asp:HyperLink NavigateUrl="~/A9.aspx" runat="server" Text="next" /><br />
 			目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />

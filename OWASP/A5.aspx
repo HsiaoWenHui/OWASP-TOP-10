@@ -34,6 +34,7 @@
 			<br />
 			<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
 			<br />
+			您的名字：<asp:Label ID="Label2" runat="server" Text=""></asp:Label><br />
 			您的餘額：<asp:Label ID="Label1" runat="server" Text="0"></asp:Label>
 			<br />
 			<h3>Missing function level access control 缺少功能級別的存取控制</h3>

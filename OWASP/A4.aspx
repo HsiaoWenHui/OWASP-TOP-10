@@ -24,7 +24,7 @@
 
     <div>
 			<hr />
-        <asp:HyperLink NavigateUrl="~/A5.aspx" runat="server" Text="next" /><br />
+        <asp:HyperLink NavigateUrl="~/A5.aspx?id= 0" runat="server" Text="next" /><br />
 			目錄: <asp:HyperLink NavigateUrl="~/index.aspx" runat="server" Text="OWASP TOP 10 目錄" />
 		</div>
 </body>

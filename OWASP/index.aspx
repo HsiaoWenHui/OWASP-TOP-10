@@ -19,7 +19,7 @@
                 <li><asp:HyperLink NavigateUrl="~/A2.aspx" runat="server" Text="A2" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A3.aspx" runat="server" Text="A3" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A4.aspx" runat="server" Text="A4" /></li>
-                <li><asp:HyperLink NavigateUrl="~/A5.aspx" runat="server" Text="A5" /></li>
+                <li><asp:HyperLink NavigateUrl="~/A5.aspx?id=0" runat="server" Text="A5" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A6.aspx" runat="server" Text="A6" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A7.aspx" runat="server" Text="A7" /></li>
                 <li><asp:HyperLink NavigateUrl="~/A8.aspx" runat="server" Text="A8" /></li>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="A6.aspx.cs" Inherits="OWASP.A6" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="A6.aspx.cs" Inherits="OWASP.A6" validateRequest="false"%>
 
 <!DOCTYPE html>
 
